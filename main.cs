@@ -65,6 +65,7 @@ ModuleDatabase.LoadExplicit( "GuiEditorModule" );
 function onExit()
 {
     // Unload the AppCore module.
+    ModuleDatabase.unloadExplicit( "GuiEditorModule" );
     ModuleDatabase.unloadExplicit( "AppCore" );
 }
 
