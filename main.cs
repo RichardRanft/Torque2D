@@ -58,6 +58,7 @@ ModuleDatabase.scanModules( "modules" );
 
 // Load AppCore module.
 ModuleDatabase.LoadExplicit( "AppCore" );
+ModuleDatabase.LoadExplicit( "GuiEditorModule" );
 
 //-----------------------------------------------------------------------------
 
